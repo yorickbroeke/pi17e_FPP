@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1522827020 source:d:\documents\vilniaus kolegija\first programming practice\pi17e-yorickbroeke\practice_assignments\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1522053768 source:d:\documents\vilniaus kolegija\first programming practice\pi17e-yorickbroeke\practice_assignments\task-1_cvs-and-.data-conversion.c
+	<stdio.h>
+	<stdlib.h>
+
+1522053768 d:\documents\vilniaus kolegija\first programming practice\pi17e-yorickbroeke\practice_assignments\task-1_cvs-and-.data-conversion.c
+	<stdio.h>
+	<stdlib.h>
+
+1522314068 source:d:\documents\vilniaus kolegija\first programming practice\pi17e-yorickbroeke\practice_assignments\task1_conversion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1522141550 d:\documents\vilniaus kolegija\first programming practice\pi17e-yorickbroeke\practice_assignments\task1_conversion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1523304596 source:d:\documents\vilniaus kolegija\first programming practice\pi17e-yorickbroeke\practice_assignments\task2_lottery.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1523346407 source:d:\documents\vilniaus kolegija\first programming practice\pi17e-yorickbroeke\practice_assignments\task3_adventure.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1523357810 source:d:\documents\vilniaus kolegija\first programming practice\pi17e-yorickbroeke\practice_assignments\task4_ai.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
