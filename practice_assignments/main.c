@@ -26,7 +26,7 @@ int main()
             adventure_main();
             break;
         case '4':
-            guessing_game_main();
+            //guessing_game_main();
             break;
         case '9':
             printf("\nExiting testing menu \n\n");
