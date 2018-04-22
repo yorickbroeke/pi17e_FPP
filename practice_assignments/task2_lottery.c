@@ -149,11 +149,11 @@ void _playRound(){
     fprintf(htmlfile, "</head>\n\n");
     fprintf(htmlfile, "<body>\n <div class=\"container\">\n <header><h1 style=\"font-size: 64px;\">Fruit Fiesta Festival Lottery</h1></header>\n\n");
     fprintf(htmlfile, "<header style=\"background-color: black;\"><h1 style=\"color: white; font-size: 32px; width: 522px\">Fruit from the Winners Tree: </h1>");
-    fprintf(htmlfile, "<img style=\"position: absolute; top: 153px; left: 538px\" src=\"Images\\%s.png\">\n <img style=\"position: absolute; top: 153px; left: 666px\" src=\"Images\\%s.png\"></header>\n\n", _fruits[winfruit1], _fruits[winfruit2]);
+    fprintf(htmlfile, "<img style=\"position: absolute; top: 153px; left: 538px\" src=\"../images\\%s.png\">\n <img style=\"position: absolute; top: 153px; left: 666px\" src=\"../images\\%s.png\"></header>\n\n", _fruits[winfruit1], _fruits[winfruit2]);
 
     while(i < 6){
         fprintf(htmlfile, "<div class=\"block\">\n");
-        fprintf(htmlfile, "<img style=\"position: relative;top: 10px;left: 64px;\" src=\"Images\\%s.png\" alt= \"%s\">\n",_fruits[ticket[i][0]], _fruits[ticket[i][0]]);
+        fprintf(htmlfile, "<img style=\"position: relative;top: 10px;left: 64px;\" src=\"../images\\%s.png\" alt= \"%s\">\n",_fruits[ticket[i][0]], _fruits[ticket[i][0]]);
         fprintf(htmlfile, "<p>€ %d</p>\n</div>\n\n", _prizes[ticket[i][1]]);
         i++;
     }
