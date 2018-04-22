@@ -1,3 +1,7 @@
+DIRS=bin build
+
+$(shell mkdir -p $(DIRS))
+
 game : main.o task1_conversion.o task2_lottery.o task3_adventure.o
 	cc -o ./bin/game ./build/main.o ./build/task1_conversion.o ./build/task2_lottery.o ./build/task3_adventure.o
 
